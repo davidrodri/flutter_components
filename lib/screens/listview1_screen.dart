@@ -11,7 +11,7 @@ class Listview1Screen extends StatelessWidget {
         appBar: AppBar(
           title: const Text('List View Tipo 2'),
         ),
-        body: ListView(
+        body: ListView. (
           children: [
             ...options
                 .map((game) => ListTile(
